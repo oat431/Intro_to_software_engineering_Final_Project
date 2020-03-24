@@ -6,7 +6,7 @@
 */
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 The Bootstrap 
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
@@ -2457,32 +2457,32 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #95d685;
-  border-color: #8cff6f;
+  background-color: #FFCF47;
+  border-color: #FFC31A;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #81b973;
-  border-color: #8cff6f;
+  background-color: #FFCF47;
+  border-color: #FFC31A;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #8cff6f;
-  border-color: #8cff6f;
-  box-shadow: 0 0 0 0.2rem rgba(222, 255, 169, 0.5);
+  background-color: #FFCF47;
+  border-color: #FFC31A;
+  box-shadow: 0 0 0 0.2rem  #f7da8d;
 }
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #8cff6f;
-  border-color: #8cff6f;
+  background-color: #FFCF47;
+  border-color: #FFC31A;
 }
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #8cff6f;
-  border-color: #8cff6f;
+  background-color: #FFCF47;
+  border-color: #FFC31A;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(246, 122, 88, 0.5);
+  box-shadow: 0 0 0 0.2rem #f7da8d;
 }
 
 .btn-secondary {
@@ -2705,7 +2705,7 @@ fieldset:disabled a.btn {
   border-color: #f4623a;
 }
 .btn-outline-primary:focus, .btn-outline-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(244, 98, 58, 0.5);
+  box-shadow: 0 0 0 0.2rem #f4623a;
 }
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
   color: #f4623a;
@@ -9748,7 +9748,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #3ed852 !important;
+  color: #FFC82C !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9959,7 +9959,7 @@ html {
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: #baff92;
+  border-color: #FFC82C;
 }
 
 hr.light {
