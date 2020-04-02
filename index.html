@@ -42,6 +42,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<!-- Magnific Popup -->
 	<link rel="stylesheet" href="css/magnific-popup.css">
+
 	<!-- Owl Carousel  -->
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
@@ -52,6 +53,7 @@
 	<!-- <link rel="stylesheet" href="css/styles.css"> -->
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
+	<link rel="stylesheet" href="css/contract.css">
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
@@ -665,6 +667,107 @@
 			</div>
 		</div>
 	</div>
+	<div style="background-color: rgb(253, 197, 42);">
+		<h1 style="font-size: 200px;margin-top: 0px;font-weight: bold; 
+			   letter-spacing: -1px; 
+			   line-height: 1; 
+			   text-align: center; ">Contact</h1>
+		<div class="tar" style="text-align: center;" id="willDis">
+			<img style="width: 75px;margin: 20px;" src="https://image.flaticon.com/icons/svg/1384/1384005.svg" alt="">
+			<img style="width: 75px;margin: 20px;" src="https://image.flaticon.com/icons/svg/2111/2111527.svg" alt="">
+			<img style="width: 75px;margin: 20px;" src="https://image.flaticon.com/icons/svg/455/455705.svg" alt=""
+				id="tel" onclick="goTel()">
+			<br>
+			<br>
+			<button style="background-color: rgb(66, 63, 63);margin-bottom: 100px; border-radius: 25px;" type="button"
+				class="btn btn-secondary btn-lg" onclick="emailClick()">SUBSCRIBE</button>
+			<button style="background-color: rgb(66, 63, 63);margin-bottom: 100px; border-radius: 25px;" type="button"
+				class="btn btn-secondary btn-lg" onclick="locationClick()">LOCATION</button>
+		</div>
+		<div style="display: none; text-align: center; margin-top: 75px; margin-bottom: 30px;" id="location">
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15108.261964204616!2d98.9355737!3d18.7952345!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd665a0208cba69af!2sPeter%20and%20Patrick%20Co.%2CLtd!5e0!3m2!1sth!2sth!4v1585672910576!5m2!1sth!2sth"
+				width="700px" height="450px" frameborder="0" style="border:0.5;" allowfullscreen="" aria-hidden="false"
+				tabindex="0"></iframe>
+				<br>
+				<button type="button" style="margin-left: auto;" class="btn btn-danger" id="backk" onclick="backClick()">BACK</button>
+		</div>
+		<br>
+		<div id="qbootstrap-contact" style="display: none;">
+			<form action="https://formspree.io/xgelwjne" method="POST">
+				<div class="container" style="background-color:#F2AB39;" id="concontainer">
+					<div class="row animate-box">
+						<div class="col-md-12 col-md-offset-12 col-lg-12 text-center qbootstrap-heading"
+							style="margin-left: auto; margin-right: auto;">
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+							<div class="row form-group">
+								<div class="col-md-6">
+									<label for="fname">First Name</label>
+									<input type="text" id="fname" class="form-control" placeholder="Your firstname"
+										name="name">
+								</div>
+								<div class="col-md-6">
+									<label for="lname">Last Name</label>
+									<input type="text" id="lname" class="form-control" placeholder="Your lastname">
+								</div>
+							</div>
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label for="email">Email</label>
+									<input type="text" id="email" class="form-control" placeholder="Your email address"
+										name="_replyto">
+								</div>
+							</div>
+
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label for="subject">Contact Number</label>
+									<input type="text" id="subject" class="form-control"
+										placeholder="Your Contact Number">
+								</div>
+							</div>
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label for="subject">Choose Your Subject</label>
+									<select class="selectpicker form-control">
+										<option>Choose Your Subject</option>
+										<option>Sponsor</option>
+										<option>Cooperation</option>
+										<option>Complain</option>
+										<option>Others</option>
+									</select>
+								</div>
+							</div>
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label for="message">Message</label>
+									<textarea name="message" id="message" cols="30" rows="10" class="form-control"
+										placeholder="Your Message"></textarea>
+								</div>
+							</div>
+							
+							
+							<div class="form-group">
+								<button type="button" style="margin-right: auto;" class="btn btn-danger" id="submit" onclick="alertGO()"
+									value="Send" >SUBMIT</button>
+								<button type="button" style="margin-left: auto;" class="btn btn-danger" id="back" onclick="backClick()">BACK</button>	
+							</div>
+							
+			</form>
+			
+		</div>
+	</div>
+	</div>
+	</div>
+	<br>
+	</div>
+	</div>
+
+
 	<footer>
 		<div class="row copyright" style="background-color: black;">
 			<div class="col-md-12 text-center">
@@ -709,6 +812,7 @@
 	<!-- Main -->
 	<script src="js/main.js"></script>
 	<script src="js/scripts.js"></script>
+	<script src="js/contract.js"></script>
 
 </body>
 
