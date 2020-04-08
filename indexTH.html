@@ -606,8 +606,8 @@
 				onclick="backClick()">กลับไปก่อนหน้า</button>
 		</div>
 		<br>
-		<div id="qbootstrap-contact" style="display: none;">
-			<form action="https://formspree.io/xgelwjne" method="POST">
+		<form action="https://formspree.io/xgelwjne" method="POST">
+			<div id="qbootstrap-contact" style="display: none;">
 				<div class="container" style="background-color:#F2AB39;" id="concontainer">
 					<div class="row animate-box">
 						<div class="col-md-12 col-md-offset-12 col-lg-12 text-center qbootstrap-heading"
@@ -618,56 +618,54 @@
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2">
 							<div class="row form-group">
-								<div class="col-md-6 th">
-									<label for="fname">ชื่อจริง</label>
-									<input type="text" id="fname" class="form-control" placeholder="ชื่อจริง"
-										name="name">
+								<div class="col-md-6">
+									<label for="fname" class="th">ชื่อจริง</label>
+									<input type="text" id="fname" class="form-control th" placeholder="ชื่อจริง"
+										name="name" required="">
 								</div>
-								<div class="col-md-6 th">
-									<label for="lname">นามสกุล</label>
-									<input type="text" id="lname" class="form-control" placeholder="นามสกุล">
-								</div>
-							</div>
-							<div class="row form-group">
-								<div class="col-md-12 th">
-									<label for="email">อีเมล</label>
-									<input type="text" id="email" class="form-control" placeholder="อีเมล"
-										name="_replyto">
-								</div>
-							</div>
-
-							<div class="row form-group">
-								<div class="col-md-12 th">
-									<label for="subject">เบอร์โทร ติดต่อ</label>
-									<input type="text" id="subject" class="form-control" placeholder="เบอร์โทร ติดต่อ">
+								<div class="col-md-6">
+									<label for="lname" class="th">นามสกุล</label>
+									<input type="text" id="lname"  class="form-control th" placeholder="นามสกุล">
 								</div>
 							</div>
 							<div class="row form-group">
-								<div class="col-md-12 th">
-									<label for="subject">เลือกหัวข้อที่ติดต่อเรา</label>
-									<select class="selectpicker form-control">
-										<option>เลือกหัวข้อที่ติดต่อเรา</option>
-										<option>สนับสนุน</option>
-										<option>อยากร่วมทำงาน</option>
-										<option>ข้อเสนอแนะ/วิจารญ์</option>
+								<div class="col-md-12">
+									<label for="email">อีเมลล์</label>
+								<input type="email" id="email-address" class="form-control th" placeholder="อีเมลล์"
+										name="_replyto" required="">
+								</div>
+							</div>
+	
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label for="subject" class="th">เบอร์ที่ติดต่อได้</label>
+									<input type="text" required="" id="subject" class="form-control th" placeholder="เบอร์ที่ติดต่อได้">
+								</div>
+							</div>
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label for="subject" class="th">เลือกหัวข้อ</label>
+									<select class="selectpicker form-control th">
+										<option>เลือกหัวข้อ</option>
+										<option>สปอนเซอร์</option>
+										<option>ร่วมงานกับเรา</option>
+										<option>ร้องเรียน</option>
 										<option>อื่นๆ</option>
 									</select>
 								</div>
 							</div>
 							<div class="row form-group">
-								<div class="col-md-12 th">
-									<label for="message">ข้อความ</label>
-									<textarea name="message" id="message" cols="30" rows="10" class="form-control"
-										placeholder="ข้อความ"></textarea>
+								<div class="col-md-12">
+									<label for="message" class="th">ข้อความถึงเรา</label>
+									<textarea name="message" id="message" cols="30" rows="10" class="form-control th"
+										placeholder="แสดงความเห็นของท่าน.." required=""></textarea>
 								</div>
 							</div>
-
-
-							<div class="form-group th">
-								<button type="button" style="margin-right: auto;" class="btn btn-danger th" id="submit"
-									onclick="alertGO()" value="Send">ส่ง</button>
+							<div class="form-group">
+								<button type="submit" style="margin-right: auto;" class="btn btn-danger th" id="submit"
+									value="Send" onclick="Check()">ส่ง</button>
 								<button type="button" style="margin-left: auto;" class="btn btn-danger th" id="back"
-									onclick="backClick()">กลับไปก่อนหน้า</button>
+									onclick="backClick()">ย้อนกลับ</button>
 							</div>
 						</div>
 					</div>
